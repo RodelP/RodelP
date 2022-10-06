@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>HTML Forms</title>
+        </head>
+        <body>
+            <!--HTML Forms - creates
+            inputs and outputs that can
+        a user interacts-->
+        <h1>Sample Form</h1>
+        <form action="">
+            <!--it groups and
+            identifies that a user can
+        interact with the web page-->
+        <p>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+        </p>
+        <p>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+        </p>
+        <p>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </p>
+        </form>
+        <h1>Survey Form</h1>
+        <form action="">
+            <p>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname">
+            </p>
+            <p><label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname">
+            </p>
+            <p>
+                <label for="emailAdd">Email Address</label>
+                <input type="email" name="emailAdd" id="emailAdd">
+            </p>
+            <p>
+                <input type="radio" name="etype" id="etype">
+                <label for="etype">Onsite</label>
+                <input type="radio" name="etype" id="etype">
+                <label for="etype">Online</label>
+
+            </p>
+            <p>
+                <label for="bnum">Batch Number</label>
+                <select name="bNum" id="bNum">
+                <option value="b23">Batch 23</option>
+                <option value="b24">Batch 24</option>
+                <option value="b26">Batch 26</option>
+                <option value="b27">Batch 27</option>  
+                </select>
+            </p>
+            <p>
+                <label for="instructor">Instructor</label>
+                <input type="text" name="instructor" id="instructor">
+            </p>
+            <p>
+                What do you like about our bootcamp?
+                <p>
+                <input type="checkbox" name="classroom" id="classroom" value="classroom">
+                <label for="classroom">Classroom Experience</label> <br />
+
+                <input type="checkbox" name="expertise" name="expertise" value="expertise">
+                <label for="expertise">Instructor Expertise</label> <br />
+                <input type="checkbox" name="collaboration" name="collaboration" value="collaboration">
+                <label for="collaboration">Classmates Collaboration</label> <br />
+
+                <input type="others" name="others" name="others" value="others">
+                <label for="others">Others</label>
+                <input type="text" name="others" id="others" placeholder="Please Specify">
+
+
+
+            </p>
+            <p>
+                <label for="comments">Comments for you Instructor</label>
+                <textarea name="comments" id="" cols="30" rows="10" 
+                placeholder="Type full comments here"></textarea>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+            
+        </body>
+</html>
