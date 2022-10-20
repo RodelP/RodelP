@@ -1,0 +1,17 @@
+div {
+    
+    
+}
+
+.divs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.menu {
+    order: 3;
+    align-self: flex-end;
+    flex-direction: row-reverse
+}

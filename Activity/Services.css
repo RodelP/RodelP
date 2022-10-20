@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(65, 43, 43);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: blanchedalmond;
+}
+
+.nav-bar-links li:hover {
+    background-color: rgb(181, 181, 181);
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(137, 233, 27);
+   
+}
+ul {
+    color: rgb(137, 233, 27);
+    padding: 5px;
+
+}
+
+
+.section2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 20px;
+    color: rgb(218, 179, 120);
+}
+
+img {
+    width: 400px;
+    height: 450px;
+    padding-top: 30px;
+    padding-left: 100px;
+    transition:transform 2s;
+}
+.section2:hover img {
+    transform: scaleY(1.5);
+  
+}
+
+ .section h1{
+    text-align: center;
+    color: rgb(137, 233, 27);
+    line-height: 5;
+}
+
+@media screen and (max-width: 768px) {
+    .section {flex-direction: column-reverse;}
+}
+@media screen and (max-width: 768px) {
+    .section2 {flex-direction: column-reverse;}
+}
+@media screen and (max-width: 768px) {
+    .a-1 {flex-direction: column;
+          align-items: center;}
+
+    
+

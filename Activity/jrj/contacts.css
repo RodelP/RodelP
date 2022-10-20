@@ -1,0 +1,31 @@
+body {
+    b
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div {
+    background-color: rgb(47, 38, 38);
+    padding: 50px;
+    width: 80%;
+    margin: 10rem auto 0 auto;
+}
+h1 {
+    text-align: center;
+    color:rgb(137, 233, 27);
+}
+
+p {
+    color: blanchedalmond;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+}

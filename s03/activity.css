@@ -1,0 +1,37 @@
+p.gradient-text {
+    background-image:-webkit-linear-gradient(red,yellow); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+h1 {
+    font-size: 200%;
+}
+h2 {
+    text-transform: uppercase;
+}
+
+ol {
+    background-color: #85c00f;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; font-size: 90%;
+}
+#logo img{
+    width:10%;
+    height:10%;
+    border-radius: 50%;
+}
+li {
+    liststyle-type: none;
+}
+ul > li {
+    letter-spacing: 5px;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter ;
+    margin-left: 20px;
+}
+ .lastp {
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
