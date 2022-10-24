@@ -61,6 +61,88 @@
     }
   }
 
-.footer 
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
   
-
+  footer .mainsection {
+    display: flex;
+    justify-content: space-between;
+  
+  
+  }
+  
+  .image {
+    color: black;
+    background: white;
+    width: 250px;
+    height: 400px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+  
+  .image1 {
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .image2 {
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image3 {
+    height: 150px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .image1 {
+    background-image: url('./map.png');
+  }
+  
+  .image2 {
+    background-image: url('./ada1.png');
+  }
+  
+  .image3 {
+    background-image: url('./newgmaillogo.png');
+  }
+  
+  .image:hover {
+    background-color: #7289B6;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 30px;
+  
+  }
+  .baba {
+    width: 40px;
+    padding: 0;
+  }
+  .baba:hover {
+    background-color: #588aee;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+  }
+  
