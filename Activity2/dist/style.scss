@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+}
+
+body {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/background.png');
+    background-size: cover;
+
+}
+
+#LoginForm{
+    width: 300px;
+    margin: auto;
+}
+
