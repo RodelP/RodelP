@@ -1,0 +1,142 @@
+@media only screen and (min-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    padding-left: 20px;
+        
+  }
+
+}
+
+* {
+  box-sizing: border-box;
+
+}
+.nav-image {
+   height: 8.7rem;
+   width: 100%;
+
+}
+
+.nav-link {
+  color: hsl(56, 94%, 43%);
+}
+
+* {
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+
+
+body {
+  background-color: hsl(15, 85%, 8%);
+
+}
+
+  .carousel {
+    top: 1.3rem;
+    width: 85%;
+    margin: auto; 
+    position: relative;
+  
+  }
+ h4 {
+  color: hsl(56, 94%, 43%);
+  padding-top: 20px;
+ }
+  .card {
+    height: 5rem; !important
+    
+   
+  } 
+
+  .card-img {
+    height: 400px
+
+   
+  }
+  .carousel-indicators .active {
+    background-color: red;
+    padding: 0;
+    margin-bottom: 0;
+
+        
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:auto;
+    padding-top: 50px;
+}
+
+ .card-a {
+    background: rgb(241, 192, 192);
+    width: 310px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+   
+} 
+
+.card1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+} 
+
+ img {
+    width: 150px;
+    height: 194px;
+    margin-top: 3px;
+    border-radius: 15px;
+}
+.text {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5px;
+    font-size: .8rem;
+}
+
+.card1:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+ 
+  @media screen and(min-width: 667px) {
+    .carousel {
+       width: 100%;
+       height: 200px;
+    }
+  }
+
+  @media screen and(min-width: 820px) {
+    .container1 {
+       width: 100%;
+       height: 200px;
+    }
+  }
+
+  
+
+ 
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
